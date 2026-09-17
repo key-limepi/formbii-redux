@@ -1,12 +1,16 @@
-# formbii
+yeah, that makes more sense. I'd make the README specifically about it being a remake/rewrite of the old Formbii, without making it sound like a corporate project.
 
-formbii is a mii maker styled thing for formbar
+# formbii redux
 
-basically you can make little characters and customize them however you want. its supposed to feel kinda like the old mii maker stuff but for formbar
+formbii redux is a remake of formbii, a mii maker styled thing for formbar
+
+the old formbii was basically ai slop so i decided to actually remake it properly
 
 ## what is it
 
-formbii lets you make your own formbii and change stuff like
+formbii redux lets you make your own formbii and customize it
+
+you can change stuff like
 
 * hair
 * eyes
@@ -16,23 +20,28 @@ formbii lets you make your own formbii and change stuff like
 * face
 * clothes
 * colors
-* other stuff
+* accessories
+* probably a bunch of other stuff later
 
-you can mess around with the settings until you make something that looks good or something that looks absolutely terrible
+the goal is to make it feel like an actual mii maker instead of just being a bunch of ai generated code thrown together
 
-## how to use
+## why redux
 
-open `index.html`
+the original formbii had a lot of problems and was mostly ai generated
 
-thats it
+formbii redux is meant to be a proper remake with cleaner code, better customization, and actually working features
 
-if youre running it through a local server you can also do
+## running it
+
+just open `index.html`
+
+or if you want to run it with a local server
 
 ```bash
 python3 -m http.server
 ```
 
-and then go to
+then go to
 
 ```text
 http://localhost:8000
@@ -41,7 +50,7 @@ http://localhost:8000
 ## files
 
 ```text
-formbii/
+formbii-redux/
 ├── index.html
 ├── style.css
 ├── script.js
@@ -51,22 +60,27 @@ formbii/
 
 ## planned stuff
 
-* more hair
+* more hairstyles
 * more eyes
-* more faces
+* more eyebrows
+* more noses
+* more mouths
 * more clothes
 * more accessories
-* random button
-* saving characters
-* exporting characters
-* more stuff eventually
+* better customization
+* random formbii
+* saving formbiis
+* exporting formbiis
+* more stuff
 
 ## credits
 
-formbii is a fan made project for formbar
+formbii redux is a fan made project for formbar
 
-its inspired by mii maker but isnt affiliated with nintendo
+inspired by mii maker
+
+not affiliated with nintendo
 
 ## thats it
 
-go make a formbii
+make a guy a little ghoul
