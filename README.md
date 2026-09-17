@@ -1,5 +1,3 @@
-yeah, that makes more sense. I'd make the README specifically about it being a remake/rewrite of the old Formbii, without making it sound like a corporate project.
-
 # formbii redux
 
 formbii redux is a remake of formbii, a mii maker styled thing for formbar
