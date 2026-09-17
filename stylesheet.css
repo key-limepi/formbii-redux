@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #eaf7ff;
+    color: #171717;
+    font-family: "Comic Sans MS", cursive;
+}
+
+header {
+    background: #b9dff2;
+    border-bottom: 3px solid #111;
+    padding: 18px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 38px;
+}
+
+.logo p {
+    margin: 0;
+    font-size: 14px;
+}
+
+nav a {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 7px 13px;
+    border: 2px solid #111;
+    background: #eaf7ff;
+    color: #111;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background: #111;
+    color: white;
+}
+
+main {
+    width: 90%;
+    max-width: 950px;
+    margin: 25px auto;
+}
+
+.welcome {
+    background: #d5edfa;
+    border: 3px solid #111;
+    padding: 25px;
+    margin-bottom: 18px;
+    position: relative;
+}
+
+.welcome h2 {
+    margin: 0 0 8px;
+    font-size: 28px;
+}
+
+.welcome p {
+    margin: 0 0 20px;
+    max-width: 600px;
+}
+
+.make-button {
+    display: inline-block;
+    background: #b9dff2;
+    border: 3px solid #111;
+    padding: 10px 18px;
+    color: #111;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.make-button:hover {
+    background: #cceafa;
+}
+
+.columns {
+    display: flex;
+    gap: 18px;
+}
+
+.columns section {
+    flex: 1;
+    border: 2px solid #111;
+    background: #f5fbff;
+}
+
+.columns h2 {
+    margin: 0;
+    padding: 7px 10px;
+    background: #b9dff2;
+    font-size: 18px;
+    border-bottom: 2px solid #111;
+}
+
+.columns p,
+.columns h3 {
+    margin: 13px;
+}
+
+.columns h3 {
+    font-size: 17px;
+}
+
+.little-note {
+    margin-top: 18px;
+    padding: 10px;
+    border: 2px dashed #111;
+    background: #dff2fc;
+    text-align: center;
+    font-size: 13px;
+}
+
+footer {
+    margin-top: 35px;
+    padding: 15px;
+    border-top: 2px solid #111;
+    text-align: center;
+    font-size: 13px;
+}
+
+@media (max-width: 650px) {
+    header {
+        display: block;
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 15px;
+    }
+
+    nav a {
+        margin: 3px;
+    }
+
+    .columns {
+        display: block;
+    }
+
+    .columns section {
+        margin-bottom: 18px;
+    }
+}
