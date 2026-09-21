@@ -29,6 +29,7 @@ let skin = skin1
 let pants = 1
 let shirt = 1
 
+// changing skin color
 document.addEventListener('DOMContentLoaded', function() {
 
     const img = document.getElementById("testimg")
@@ -49,6 +50,46 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.getElementById("testb4").addEventListener("click", function() {
         img.style.backgroundColor = skin4
+    })
+
+    document.getElementById("testb5").addEventListener("click", function() {
+        img.style.backgroundColor = skin5
+    })
+
+    document.getElementById("testb6").addEventListener("click", function() {
+        img.style.backgroundColor = skin6
+    })
+
+    document.getElementById("testb7").addEventListener("click", function() {
+        img.style.backgroundColor = skin7
+    })
+
+    document.getElementById("testb8").addEventListener("click", function() {
+        img.style.backgroundColor = skin8
+    })
+
+    document.getElementById("testb9").addEventListener("click", function() {
+        img.style.backgroundColor = skin9
+    })
+
+    document.getElementById("testb10").addEventListener("click", function() {
+        img.style.backgroundColor = skin10
+    })
+
+    document.getElementById("testb11").addEventListener("click", function() {
+        img.style.backgroundColor = skin11
+    })
+
+    document.getElementById("testb12").addEventListener("click", function() {
+        img.style.backgroundColor = skin12
+    })
+
+    document.getElementById("testb13").addEventListener("click", function() {
+        img.style.backgroundColor = skin13
+    })
+
+    document.getElementById("testb14").addEventListener("click", function() {
+        img.style.backgroundColor = skin14
     })
 
 })
